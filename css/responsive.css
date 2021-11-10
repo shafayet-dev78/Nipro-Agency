@@ -1,0 +1,166 @@
+
+ /* Extra small devices (phones, 409px and down) */
+@media only screen and (max-width: 409px) {
+.talent-section h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 120px;
+}
+.talent-section p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.talent-section .btn-secondary {
+    font-size: 12px;
+    line-height: 20px;
+}
+.talent-section h4 {
+    margin-top: 120px;
+}
+.welcome-section .title h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+.welcome-section .title p {
+    font-size: 10px;
+    line-height: 20px;
+}
+.about-section .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+.about-section .title p {
+    font-size: 10px;
+    line-height: 18px;
+}
+.about-section .title .btn-secondary {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 26px;
+}
+.recent-section {
+    padding: 20px 0px;
+}
+.recent-section .recent-menu ul li a {
+    font-size: 9px;
+    line-height: 22px;
+    padding: 4px 5px;
+}
+.contact-section h1 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.footer-section p {
+    font-size: 11px;
+    line-height: 18px;
+}
+.footer-section .social-icon .fa-facebook {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa-twitter {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa-instagram {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa-linkedin {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa-behance {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa-pinterest {
+    padding: 5px 6px;
+}
+.footer-section .social-icon .fa {
+    font-size: 10px;
+}
+.footer-section .footer-menu ul li a {
+    font-size: 10px;
+    line-height: 22px;
+    padding: 5px 8px;
+}
+}
+
+ /* Extra small devices (phones, 409px and large Phone) */
+@media only screen and (min-width: 409px) {
+.talent-section h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 115px;
+}
+
+.welcome-section .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.about-section .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.about-section .title p {
+    font-size: 11px;
+    line-height: 20px;
+}
+.about-section .title .btn-secondary {
+    margin-top: 20px;
+}
+.recent-section {
+    padding: 20px 0px;
+}
+.collapse:not(.show) {
+    display: block;
+}
+
+.slider-section .d-flex img, svg {
+    height: 100px;
+    margin-left: 5px;
+}
+.slider-section .d-flex p {
+    font-size: 10px;
+}
+.contact-section {
+    padding: 20px 40px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.footer-section .social-icon .fa {
+    font-size: 12px;
+    border: 1px solid;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.footer-section .footer-menu ul li a {
+    font-size: 12px;
+    padding: 4px 7px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+} 

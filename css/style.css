@@ -1,0 +1,627 @@
+*{
+	margin: 0px
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+	list-style: none;
+}
+
+.header-section{
+	width: 100%;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .line {
+    height: 20px;
+    width: 2px;
+    margin: -13px 0px 0px 112px;
+    position: absolute;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: 1s;
+    padding: 8px 10px 5px 10px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0px 0px 20px;
+    transition: 1s;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #568aae;
+	font-weight: 700;
+}
+.d-flex img, svg {
+    height: 25px;    
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*********** talent-section start***********/
+.talent-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/slider image.png") center top no-repeat;
+	background-size: cover;
+}
+.talent-section h2{
+	font-size: 44px;
+	line-height: 54px;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 150px;
+}
+.talent-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #fff;	
+}
+.talent-section .btn-secondary{
+	font-size: 14px;
+    line-height: 24px;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+}
+.talent-section .btn-secondary:hover{
+	background: transparent;
+	color: #fff;
+	border: 2px solid;
+}
+.talent-section .fa{
+	margin-left: 6px;
+}
+.talent-section h4{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 150px;
+}
+/*************** talent-section end ***************/
+/************* Welcome Sectin Start **************/
+.welcome-section{
+	width: 100%;
+	padding: 20px 0px;
+}
+.welcome-section .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.welcome-section .line {
+    height: 20px;
+    width: 2px;
+    margin: -13px 0px 0px 0px;
+    position: absolute;
+}
+.welcome-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+}
+.welcome-section .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #000;
+}
+.welcome-section .card{
+	width: 95%;
+	text-align: center;
+}
+.welcome-section .card:hover, .welcome-section .card:focus{
+	border: 1px solid #333333;
+}
+.welcome-section .card:hover, .welcome-section .card:focus .card .card-body .card-title{
+	color: #333333;
+	font-weight: 700;
+
+}
+.welcome-section .card:hover, .welcome-section .card:focus .card .card-body .card-text{
+	color: #333333;
+	font-weight: bold;
+}
+.welcome-section .card:hover .btn-link{
+	border: 1px solid #ddd;
+}
+.welcome-section .card .card-body .btn-link{
+	text-decoration: none;
+}
+.welcome-section .card .card-title{
+	margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.welcome-section .fa{
+    position: absolute;
+    margin: -32px 0px 0px -14px;
+    padding: 5px;
+    background: #fff;
+    font-size: 25px;
+}
+.welcome-section .card .card-body .shadow img{
+	height: 30px;
+	margin-top: -23px;
+	position: relative;
+	z-index: 3;
+}
+.welcome-section .card .card-body .shadow{
+    background: #fff;
+    height: 3px;
+    width: 36px;
+    position: absolute;
+    z-index: 2;
+    margin: -17px 0px 0px 87px;
+}
+.welcome-section .card .card-body .btn-link .fa-long-arrow-right{
+	font-size: 16px;
+	margin: 1px;
+	background: transparent;
+}
+.welcome-section .card .card-body .btn-link:hover, .welcome-section .card .card-body .btn-link:focus{
+	background: #ddd;
+    color: #0a58ca;
+    border: 1px solid #000;
+    padding: 5px 45px;
+    border: 0px;
+}
+/*************** Welcome Sectin End **************/
+/************* About Sectin Start **************/
+.about-section{
+	width: 100%;
+	padding: 40px 0px;
+}
+.about-section .title{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.about-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+}
+.about-section .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #000;
+}
+.about-section .title .btn-secondary{
+	font-size: 14px;
+    line-height: 24px;
+    background: #eee;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+    margin-top: 40px;
+}
+.about-section .title .btn-secondary:hover, .about-section .title .btn-secondary:focus{
+	background: #84a5bc;
+	color: #fff;
+	border: 1px solid;
+}
+.about-section .title .fa{
+	margin-left: 6px;
+}
+
+/*************** About Sectin End **************/
+/************* recent-section Start **************/
+.recent-section{
+	width: 100%;
+	padding: 80px 0px 20px;
+}
+.recent-section .title{
+	width: 100%;
+	text-align: center;
+}
+.recent-section .line {
+    height: 25px;
+    width: 2px;
+    margin: -22px 0px 0px 0px;
+    position: absolute;
+}
+.recent-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+.recent-section .recent-menu{
+	width: 100%;
+}
+.recent-section .recent-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.recent-section .recent-menu ul li a{
+	color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    transition: 1s;
+    text-decoration: none;
+	padding: 5px 15px;
+}
+.recent-section .recent-menu ul li:first-child{
+	border: 1px solid #bbb;
+}
+.inner-box{
+	padding: 15px;
+}
+
+/*************** recent-section End **************/
+/************* choose-section Start **************/
+.choose-section{
+	width: 100%;
+	padding: 80px 0px 20px;
+}
+.choose-section .title{
+	width: 100%;
+	text-align: center;
+}
+.choose-section .line{
+    height: 25px;
+    width: 2px;
+    margin: -22px 0px 0px 0px;
+    position: absolute;
+}
+.choose-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+.choose-section .design-box{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 40px;
+}
+.choose-section .design-box:hover{
+	border-bottom: 2px solid #bbb;
+}
+.choose-section .design-box img{
+	height: 30px;
+}
+.choose-section .design-box h4{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	position: absolute;
+	margin: -30px 0px 25px 50px;
+}
+.choose-section .design-box p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #000;
+	margin: 25px 0px;
+}
+
+/*************** choose-section End **************/
+/************* work-sectio Start **************/
+.work-section{
+	width: 100%;
+	padding: 50px 0px;
+	background: url("../images/Background.png") center top no-repeat;
+	background-size: cover;
+}
+.work-section .title{
+	width: 100%;
+	text-align: center;
+}
+.work-section .line{
+    height: 25px;
+    width: 2px;
+    margin: -22px 0px 0px 0px;
+    position: absolute;
+}
+.work-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+.work-section .card-title{
+    color: brown;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+}
+.card-text:last-child {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: brown;
+    margin-top: -10px;
+}
+/*************** work-sectio End **************/
+/************* pricing Sectin Start **************/
+.pricing-section{
+	width: 100%;
+	padding: 20px 0px;
+}
+.pricing-section .title{
+	width: 100%;
+	text-align: center;
+}
+.pricing-section .line{
+    height: 25px;
+    width: 2px;
+    margin: -22px 0px 0px 0px;
+    position: absolute;
+}
+.pricing-section .title h2{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+.pricing-section .card {
+    width: 90%;
+}
+.pricing-section .card:hover, .pricing-section .card:focus{
+	border: 1px solid #000;
+}
+.pricing-section .card:hover .btn-link{
+	border: 1px solid #000;
+}
+.pricing-section .card-header {
+    padding: 5px;
+	margin-bottom: 0;
+	background-color: #fff;
+	position: absolute;
+	font-size: 16px;
+	margin-top: -16px;
+	margin-left: 20px;
+}
+.pricing-section .card-title {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.pricing-section .card-title span{
+	font-size: 16px;
+}
+.pricing-section .btn-link {
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+    text-decoration: none;
+}
+.pricing-section .btn-link:hover{
+	background: transparent;
+	color: #000;
+	border: 2px solid;
+}
+.pricing-section .fa{
+	margin-left: 6px;
+}
+/*************** pricing Sectin End **************/
+/************* Responsive Section Start **************/
+.responsive-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.responsive-section h4{
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.responsive-section .btn-link{
+	font-size: 12px;
+    line-height: 24px;
+    background: transparent;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 4px 20px;
+}
+.responsive-section .btn-link:hover{
+	background: #ddd;
+	color: #000;
+	border: 2px solid;
+}
+.responsive-section .fa{
+	margin-left: 6px;
+}
+.responsive-section .button-positon{
+	text-align: right;
+}
+/*************** Responsive Section End **************/
+/********** slider-section start ************/
+.slider-section{
+	width: 100%;
+	padding: 10px;
+}
+.slider-section .d-flex{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.slider-section .d-flex img, svg {
+	height: 300px;
+    margin-left: 20px;
+}
+.slider-section .d-flex h5{
+	font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.slider-section .d-flex h6{
+	font-size: 14px;
+    color: gray;
+}
+.slider-section .d-flex h6 span{
+	color: #000;
+	margin-top: 10px;
+}
+.slider-section .d-flex p{
+	font-size: 12px;
+    color: gray;
+}
+.slider-section .direction{
+	border: 1px solid #ccc;
+	width: 80px;
+	height: 333px;
+}
+.slider-section .direction .left{
+    font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transform: rotate(90deg);
+	margin: 38px 0px 0px 0px;
+}
+.slider-section .direction .middle{
+    font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transform: rotate(90deg);
+	margin: 105px 0px 0px 0px;
+}
+.slider-section .direction .right{
+    font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transform: rotate(90deg);
+	margin: 78px 0px 0px 0px;
+}
+/********** slider-section end ************/
+/************* contact section start************/
+.contact-section{
+	width: 100%;
+	padding: 80px 40px;
+	text-align: center;
+}
+.contact-section h1{
+	font-size: 44px;
+	line-height: 54px;
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+.contact-section .g-3{
+	width: 100%;
+	padding: 15px;
+}
+.contact-section .btn-primary {
+    color: #000;
+    border-color: #000;
+    background: transparent;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.contact-section .btn-primary:hover, .contact-section .btn-primary:focus{
+	background: blue;
+	color: #fff;
+}
+/************* contact section end************/
+/********** footer-section start ************/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 20px;
+	text-align: center;
+	background: url("../images/background1.png") center top no-repeat;
+	background-size: cover;
+}
+.footer-section p{
+	font-size: 12px;
+	line-height: 22px;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.footer-section .social-media{
+	width: 100%;
+	padding: 10px;
+}
+.footer-section .social-icon{
+	width: 100%;
+}
+.footer-section .social-icon li{
+	list-style: none;
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+}
+.footer-section .social-icon li a{
+	color: #fff;
+}
+.footer-section .social-icon .fa{
+	font-size: 16px;
+	border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-section .social-icon .fa-facebook{
+	    padding: 10px 13px;
+}
+.footer-section .social-icon .fa:hover, .footer-section .social-icon .fa:focus{
+	background: #fff;
+	color: #000;
+}
+.footer-section .footer-menu{
+	width: 100%;
+}
+.footer-section .footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .footer-menu ul li a{
+	color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    transition: 1s;
+    text-decoration: none;
+	padding: 5px 15px;
+}
+/********** footer-section end ************/
